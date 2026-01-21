@@ -32,7 +32,7 @@
             "name": "Muñeca Pelirroja con Vestido Colorido",
             "category": "muñecas",
             "description": "Preciosa muñeca amigurumi con pelo de lana naranja, vestido multicolor con volantes y botitas a juego. Ideal para regalar.",
-            "image": "/images/IMG_20191104_210315.jpg",
+            "image": "images/IMG_20191104_210315.jpg",
             "featured": true
         },
         {
@@ -40,7 +40,7 @@
             "name": "Muñeca de Comunión",
             "category": "muñecas",
             "description": "Elegante muñeca con vestido blanco de tul, perfecta para un recuerdo especial de Primera Comunión.",
-            "image": "/images/IMG_20200319_224935.jpg",
+            "image": "images/IMG_20200319_224935.jpg",
             "featured": true
         },
         {
@@ -48,7 +48,7 @@
             "name": "Muñeca Bohemia con Sombrero de Flores",
             "category": "muñecas",
             "description": "Muñeca estilo boho con abrigo de granny squares, sombrero decorado con flores y botitas. Una pieza única.",
-            "image": "/images/IMG_20190701_232419.jpg",
+            "image": "images/IMG_20190701_232419.jpg",
             "featured": true
         },
         {
@@ -56,7 +56,7 @@
             "name": "Muñeca Pelirroja Envuelta para Regalo",
             "category": "muñecas",
             "description": "Muñeca artesanal con pelo rizado naranja, vestido con capas coloridas y empaquetada lista para regalar.",
-            "image": "/images/IMG_20200511_212320.jpg",
+            "image": "images/IMG_20200511_212320.jpg",
             "featured": false
         },
         {
@@ -64,7 +64,7 @@
             "name": "Muñeca con Globo Corazón",
             "category": "muñecas",
             "description": "Dulce muñeca con coletas, peto azul y un adorable globo en forma de corazón. Perfecta para San Valentín.",
-            "image": "/images/IMG_20220707_141259110.jpg",
+            "image": "images/IMG_20220707_141259110.jpg",
             "featured": false
         },
         {
@@ -72,7 +72,7 @@
             "name": "Conejito con Sudadera Azul",
             "category": "animales",
             "description": "Tierno conejito amigurumi con sudadera azul y gorra. Suave y abrazable.",
-            "image": "/images/IMG_20200224_214525.jpg",
+            "image": "images/IMG_20200224_214525.jpg",
             "featured": true
         },
         {
@@ -80,7 +80,7 @@
             "name": "Osito Moderno",
             "category": "animales",
             "description": "Osito vestido a la moda con gorra, chaqueta gris, pantalón vaquero y zapatillas. ¡Súper trendy!",
-            "image": "/images/IMG_20190902_202250.jpg",
+            "image": "images/IMG_20190902_202250.jpg",
             "featured": true
         },
         {
@@ -88,7 +88,7 @@
             "name": "Osita con Vestido Rosa",
             "category": "animales",
             "description": "Adorable osita con vestido rosa y lacito a juego. Textura muy suave.",
-            "image": "/images/IMG_20191216_222230.jpg",
+            "image": "images/IMG_20191216_222230.jpg",
             "featured": false
         },
         {
@@ -96,7 +96,7 @@
             "name": "Bebé Dormilón Verde Agua",
             "category": "animales",
             "description": "Muñeco dormilón con gorrito de duende, pijama verde agua y expresión de paz. Ideal para la cuna.",
-            "image": "/images/IMG_20190802_000927.jpg",
+            "image": "images/IMG_20190802_000927.jpg",
             "featured": true
         },
         {
@@ -104,7 +104,7 @@
             "name": "Vestido Rojo con Florecitas",
             "category": "bebe",
             "description": "Vestido de ganchillo en rojo coral con detalle de florecitas blancas. Talla 0-6 meses.",
-            "image": "/images/IMG_20200504_132320.jpg",
+            "image": "images/IMG_20200504_132320.jpg",
             "featured": true
         },
         {
@@ -112,7 +112,7 @@
             "name": "Vestido Malva con Volantes",
             "category": "bebe",
             "description": "Precioso vestido en tonos malva y crema con volantes en forma de escamas. Muy elegante.",
-            "image": "/images/IMG_20200421_201148.jpg",
+            "image": "images/IMG_20200421_201148.jpg",
             "featured": false
         },
         {
@@ -120,7 +120,7 @@
             "name": "Pelele Azul con Rayas",
             "category": "bebe",
             "description": "Pelele de ganchillo en azul celeste con rayas blancas. Cómodo y fresco.",
-            "image": "/images/IMG_20200118_214312.jpg",
+            "image": "images/IMG_20200118_214312.jpg",
             "featured": false
         },
         {
@@ -128,7 +128,7 @@
             "name": "Conjunto Verde Agua",
             "category": "bebe",
             "description": "Conjunto de ranita y cubrepañal en verde agua y crema. Perfecto para verano.",
-            "image": "/images/IMG_20200529_211206.jpg",
+            "image": "images/IMG_20200529_211206.jpg",
             "featured": true
         },
         {
@@ -136,7 +136,7 @@
             "name": "Patucos de Bebé",
             "category": "bebe",
             "description": "Patucos de ganchillo en tonos neutros con ribete verde agua. Calentitos y adorables.",
-            "image": "/images/IMG_20200424_021353.jpg",
+            "image": "images/IMG_20200424_021353.jpg",
             "featured": false
         },
         {
@@ -144,7 +144,7 @@
             "name": "Cojín de Corazones",
             "category": "hogar",
             "description": "Cojín decorativo con diseño de corazones en rosa y azul. Hecho con técnica C2C.",
-            "image": "/images/IMG_20190530_125127.jpg",
+            "image": "images/IMG_20190530_125127.jpg",
             "featured": true
         },
         {
@@ -152,7 +152,7 @@
             "name": "Mochila Hipopótamo",
             "category": "hogar",
             "description": "Mochila infantil con forma de hipopótamo. Práctica, divertida y única.",
-            "image": "/images/IMG_20181015_002624.jpg",
+            "image": "images/IMG_20181015_002624.jpg",
             "featured": true
         },
         {
@@ -160,7 +160,7 @@
             "name": "Elfo Navideño Grande",
             "category": "navidad",
             "description": "Elfo navideño con gorro puntiagudo, calcetines a rayas y traje marrón. Decoración perfecta.",
-            "image": "/images/IMG_20191216_190200.jpg",
+            "image": "images/IMG_20191216_190200.jpg",
             "featured": true
         }
     ],

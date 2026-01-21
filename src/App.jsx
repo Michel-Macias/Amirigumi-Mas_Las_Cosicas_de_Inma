@@ -145,17 +145,17 @@ function Hero() {
 
         <div className="hero-images">
           <img
-            src={featuredProducts[0]?.image || '/images/IMG_20190701_232419.jpg'}
+            src={featuredProducts[0]?.image || 'images/IMG_20190701_232419.jpg'}
             alt="Muñeca amigurumi destacada"
             className="hero-image-main"
           />
           <img
-            src={featuredProducts[1]?.image || '/images/IMG_20200224_214525.jpg'}
+            src={featuredProducts[1]?.image || 'images/IMG_20200224_214525.jpg'}
             alt="Amigurumi"
             className="hero-image-float hero-image-float-1"
           />
           <img
-            src={featuredProducts[2]?.image || '/images/IMG_20191216_190200.jpg'}
+            src={featuredProducts[2]?.image || 'images/IMG_20191216_190200.jpg'}
             alt="Amigurumi"
             className="hero-image-float hero-image-float-2"
           />
@@ -330,7 +330,7 @@ function About() {
       <div className="container about-grid">
         <div className="about-image">
           <img
-            src="/images/IMG_20190701_232419.jpg"
+            src="images/IMG_20190701_232419.jpg"
             alt="Creaciones de Inma"
           />
           <div className="about-image-decoration"></div>
