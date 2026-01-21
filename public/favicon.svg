@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="yarnGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8A4B8"/>
+      <stop offset="100%" style="stop-color:#D4869B"/>
+    </linearGradient>
+  </defs>
+  <!-- Yarn ball -->
+  <circle cx="50" cy="50" r="40" fill="url(#yarnGradient)"/>
+  <!-- Yarn texture lines -->
+  <path d="M20 50 Q35 30 50 50 T80 50" stroke="#fff" stroke-width="3" fill="none" opacity="0.4"/>
+  <path d="M25 35 Q40 55 55 35 T85 35" stroke="#fff" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M25 65 Q40 45 55 65 T85 65" stroke="#fff" stroke-width="2" fill="none" opacity="0.3"/>
+  <!-- Crochet hook -->
+  <path d="M70 25 L85 10 Q90 5 92 10 L95 20 Q96 25 92 26 L80 28 Q75 29 74 26 Z" fill="#C9B8D4" stroke="#A894B8" stroke-width="1"/>
+  <!-- Heart -->
+  <path d="M50 75 C50 75 35 60 35 52 C35 45 42 42 50 50 C58 42 65 45 65 52 C65 60 50 75 50 75Z" fill="#fff" opacity="0.9"/>
+</svg>
