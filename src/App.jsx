@@ -361,7 +361,7 @@ function About() {
             </div>
             <div className="about-highlight">
               <div className="about-highlight-icon">💝</div>
-              <div className="about-highlight-title">+200</div>
+              <div className="about-highlight-title">+100</div>
               <div className="about-highlight-text">Piezas creadas</div>
             </div>
             <div className="about-highlight">

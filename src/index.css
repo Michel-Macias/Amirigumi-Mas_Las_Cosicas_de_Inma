@@ -1202,6 +1202,8 @@ h6 {
   font-weight: 600;
   color: var(--color-text-primary);
   font-size: var(--text-sm);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 /* ========================================
