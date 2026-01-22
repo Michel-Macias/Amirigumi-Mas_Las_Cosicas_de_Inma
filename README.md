@@ -27,29 +27,6 @@
 
 ---
 
-## 🚀 Inicio Rápido
-
-Para poner en marcha el proyecto localmente, sigue estos pasos:
-
-### 1. Clonar el repositorio
-```bash
-git clone https://github.com/Michel-Macias/Amirigumi-Mas_Las_Cosicas_de_Inma.git
-cd Amirigumi-Mas_Las_Cosicas_de_Inma
-```
-
-### 2. Instalar dependencias
-```bash
-npm install
-```
-
-### 3. Ejecutar en modo desarrollo
-```bash
-npm run dev
-```
-
-La aplicación estará disponible en `http://localhost:5173`.
-
----
 
 ## 🧪 Metodología de Desarrollo
 
