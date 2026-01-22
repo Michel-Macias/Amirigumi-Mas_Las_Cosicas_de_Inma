@@ -96,15 +96,15 @@ El despliegue está automatizado mediante **GitHub Actions**. Cada vez que se re
 
 ---
 
-## �👤 Autora
+## 👤 Autores
 
-Este proyecto es una colaboración para dar visibilidad al increíble trabajo de **Inmaculada Durán Gómara**.
+Este proyecto ha sido desarrollado por **Michel Macías** en colaboración con **Antigravity** (AI de Google), para dar visibilidad al increíble trabajo artesanal de **Inmaculada Durán Gómara**.
 
-- **Empresa**: Amigurumi-Mas & Las Cosicas de Inma
+- **Artesana**: Inmaculada Durán Gómara
 - **Contacto**: [WhatsApp](https://wa.me/34608254021) | [Email](mailto:inmaculadadurangomara@gmail.com) | [Facebook](https://www.facebook.com/InmaDuranGomara)
 
 ---
 
 <div align="center">
-  Hecho con ❤️ por Michel Macías
+  Hecho con ❤️ por Michel Macías & Antigravity
 </div>
