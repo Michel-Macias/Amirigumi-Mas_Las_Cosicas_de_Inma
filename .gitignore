@@ -33,3 +33,10 @@ dist-ssr
 # OS files
 Thumbs.db
 .directory
+
+# Testing & Factory
+test-results
+playwright-report
+.worktrees/
+.factory/
+verdicts/

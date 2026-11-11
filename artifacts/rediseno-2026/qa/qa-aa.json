@@ -1,0 +1,50 @@
+{
+ "emailWrap360": {
+  "lines": 2,
+  "text": "inmaculadadurangomara@gmail.com",
+  "fs": "24px"
+ },
+ "contrast360": {
+  "n": 208,
+  "bad": []
+ },
+ "focus360": [],
+ "focusN360": 14,
+ "rm360": {
+  "scroll": "auto",
+  "anims": 0,
+  "longTr": 0
+ },
+ "normalMotion360": {
+  "scroll": "smooth",
+  "anims": []
+ },
+ "hover360": {
+  "before": "rgb(157, 64, 95)",
+  "after": "rgb(128, 48, 76)"
+ },
+ "emailWrap1440": {
+  "lines": 1,
+  "text": "inmaculadadurangomara@gmail.com",
+  "fs": "24px"
+ },
+ "contrast1440": {
+  "n": 214,
+  "bad": []
+ },
+ "focus1440": [],
+ "focusN1440": 14,
+ "rm1440": {
+  "scroll": "auto",
+  "anims": 0,
+  "longTr": 0
+ },
+ "normalMotion1440": {
+  "scroll": "smooth",
+  "anims": []
+ },
+ "hover1440": {
+  "before": "rgb(157, 64, 95)",
+  "after": "rgb(128, 48, 76)"
+ }
+}

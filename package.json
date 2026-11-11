@@ -7,14 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "playwright test",
+    "test:preview": "E2E_MODE=preview playwright test",
+    "lint:strict": "eslint . --max-warnings=0"
   },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.65.0",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",

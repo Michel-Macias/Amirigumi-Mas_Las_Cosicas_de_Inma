@@ -1,0 +1,1554 @@
+{
+ "w360": {
+  "w": 360,
+  "overflow": 0,
+  "offscreen": [],
+  "fonts": [
+   "Cormorant Garamond 500",
+   "Cormorant Garamond 600",
+   "Nunito 400",
+   "Nunito 600",
+   "Nunito 700"
+  ],
+  "fontStack": "\"Cormorant Garamond\", Georgia, \"Times New Roman\", serif / body Nunito, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+  "cards": 17,
+  "gridCols": 1,
+  "imgs": [
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191104_210315.jpg",
+    "alt": "Muñeca Pelirroja con Vestido Colorido",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200319_224935.jpg",
+    "alt": "Muñeca de Comunión",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190701_232419.jpg",
+    "alt": "Muñeca Bohemia con Sombrero de Flores",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200511_212320.jpg",
+    "alt": "Muñeca Pelirroja Envuelta para Regalo",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20220707_141259110.jpg",
+    "alt": "Muñeca con Globo Corazón",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200224_214525.jpg",
+    "alt": "Conejito con Sudadera Azul",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190902_202250.jpg",
+    "alt": "Osito Moderno",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191216_222230.jpg",
+    "alt": "Osita con Vestido Rosa",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190802_000927.jpg",
+    "alt": "Bebé Dormilón Verde Agua",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200504_132320.jpg",
+    "alt": "Vestido Rojo con Florecitas",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200421_201148.jpg",
+    "alt": "Vestido Malva con Volantes",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200118_214312.jpg",
+    "alt": "Pelele Azul con Rayas",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200529_211206.jpg",
+    "alt": "Conjunto Verde Agua",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200424_021353.jpg",
+    "alt": "Patucos de Bebé",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190530_125127.jpg",
+    "alt": "Cojín de Corazones",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20181015_002624.jpg",
+    "alt": "Mochila Hipopótamo",
+    "ok": true,
+    "nw": 1300
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191216_190200.jpg",
+    "alt": "Elfo Navideño Grande",
+    "ok": true,
+    "nw": 3456
+   }
+  ],
+  "navLinks": [
+   "#hero",
+   "#catalogo",
+   "#historia",
+   "#sobre-mi",
+   "#contacto",
+   "https://api.whatsapp.com/send?phone=34608254021&text=%C2%A1Hola%20Inma!%20%F0%9F%91%8B%0A%0AHe%20visto%20tu%20web%20de%20amigurumis%20y%20me%20encanta%20tu%20trabajo.%0A%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%3F%0A%0A%C2%A1Gracias!%20%F0%9F%92%95"
+  ],
+  "anchors": {
+   "hero": true,
+   "catalogo": true,
+   "historia": true,
+   "sobre-mi": true,
+   "contacto": true
+  },
+  "contactLinks": [
+   "https://api.whatsapp.com/send",
+   "mailto:inmaculadadurangomara@gmail.com",
+   "mailto:inmaculadadurangomara@gmail.com",
+   "https://www.facebook.com/InmaDuranGomara",
+   "https://www.facebook.com/InmaDuranGomara",
+   "https://api.whatsapp.com/send",
+   "mailto:inmaculadadurangomara@gmail.com"
+  ],
+  "menuOpen": "true",
+  "menuAfterLink": "false",
+  "navScroll": {
+   "catalogo": {
+    "top": 88,
+    "navH": 72
+   },
+   "historia": {
+    "top": 88,
+    "navH": 72
+   },
+   "sobre-mi": {
+    "top": 88,
+    "navH": 72
+   },
+   "contacto": {
+    "top": 88,
+    "navH": 72
+   }
+  },
+  "filters": {
+   "✨ Todos": {
+    "n": 17,
+    "pressed": "true"
+   },
+   "👧 Muñecas": {
+    "n": 5,
+    "pressed": "true"
+   },
+   "🧸 Animales": {
+    "n": 4,
+    "pressed": "true"
+   },
+   "👶 Para Bebé": {
+    "n": 5,
+    "pressed": "true"
+   },
+   "🏠 Hogar": {
+    "n": 2,
+    "pressed": "true"
+   },
+   "🎄 Navidad": {
+    "n": 1,
+    "pressed": "true"
+   }
+  },
+  "modal": [
+   {
+    "name": "Muñeca Pelirroja con Vestido Colorido",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 983,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca de Comunión",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 917,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca Bohemia con Sombrero de Flores",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 957,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca Pelirroja Envuelta para Regalo",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 957,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca con Globo Corazón",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 917,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Conejito con Sudadera Azul",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 917,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Osito Moderno",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 878,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Osita con Vestido Rosa",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 891,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Bebé Dormilón Verde Agua",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 726,
+     "clientH": 726,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Vestido Rojo con Florecitas",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 726,
+     "clientH": 726,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Vestido Malva con Volantes",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 917,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Pelele Azul con Rayas",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 891,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Conjunto Verde Agua",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 917,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Patucos de Bebé",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 686,
+     "clientH": 686,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Cojín de Corazones",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 878,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Mochila Hipopótamo",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 793,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Elfo Navideño Grande",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 917,
+     "clientH": 768,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   }
+  ],
+  "errs": [],
+  "reqs": []
+ },
+ "w768": {
+  "w": 768,
+  "overflow": 0,
+  "offscreen": [],
+  "fonts": [
+   "Cormorant Garamond 500",
+   "Cormorant Garamond 600",
+   "Nunito 400",
+   "Nunito 600",
+   "Nunito 700"
+  ],
+  "fontStack": "\"Cormorant Garamond\", Georgia, \"Times New Roman\", serif / body Nunito, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+  "cards": 17,
+  "gridCols": 2,
+  "imgs": [
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191104_210315.jpg",
+    "alt": "Muñeca Pelirroja con Vestido Colorido",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200319_224935.jpg",
+    "alt": "Muñeca de Comunión",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190701_232419.jpg",
+    "alt": "Muñeca Bohemia con Sombrero de Flores",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200511_212320.jpg",
+    "alt": "Muñeca Pelirroja Envuelta para Regalo",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20220707_141259110.jpg",
+    "alt": "Muñeca con Globo Corazón",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200224_214525.jpg",
+    "alt": "Conejito con Sudadera Azul",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190902_202250.jpg",
+    "alt": "Osito Moderno",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191216_222230.jpg",
+    "alt": "Osita con Vestido Rosa",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190802_000927.jpg",
+    "alt": "Bebé Dormilón Verde Agua",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200504_132320.jpg",
+    "alt": "Vestido Rojo con Florecitas",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200421_201148.jpg",
+    "alt": "Vestido Malva con Volantes",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200118_214312.jpg",
+    "alt": "Pelele Azul con Rayas",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200529_211206.jpg",
+    "alt": "Conjunto Verde Agua",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200424_021353.jpg",
+    "alt": "Patucos de Bebé",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190530_125127.jpg",
+    "alt": "Cojín de Corazones",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20181015_002624.jpg",
+    "alt": "Mochila Hipopótamo",
+    "ok": true,
+    "nw": 1300
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191216_190200.jpg",
+    "alt": "Elfo Navideño Grande",
+    "ok": true,
+    "nw": 3456
+   }
+  ],
+  "navLinks": [
+   "#hero",
+   "#catalogo",
+   "#historia",
+   "#sobre-mi",
+   "#contacto",
+   "https://api.whatsapp.com/send?phone=34608254021&text=%C2%A1Hola%20Inma!%20%F0%9F%91%8B%0A%0AHe%20visto%20tu%20web%20de%20amigurumis%20y%20me%20encanta%20tu%20trabajo.%0A%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%3F%0A%0A%C2%A1Gracias!%20%F0%9F%92%95"
+  ],
+  "anchors": {
+   "hero": true,
+   "catalogo": true,
+   "historia": true,
+   "sobre-mi": true,
+   "contacto": true
+  },
+  "contactLinks": [
+   "https://api.whatsapp.com/send",
+   "mailto:inmaculadadurangomara@gmail.com",
+   "mailto:inmaculadadurangomara@gmail.com",
+   "https://www.facebook.com/InmaDuranGomara",
+   "https://www.facebook.com/InmaDuranGomara",
+   "https://api.whatsapp.com/send",
+   "mailto:inmaculadadurangomara@gmail.com"
+  ],
+  "menuOpen": "true",
+  "menuAfterLink": "false",
+  "navScroll": {
+   "catalogo": {
+    "top": 88,
+    "navH": 72
+   },
+   "historia": {
+    "top": 88,
+    "navH": 72
+   },
+   "sobre-mi": {
+    "top": 88,
+    "navH": 72
+   },
+   "contacto": {
+    "top": 88,
+    "navH": 72
+   }
+  },
+  "filters": {
+   "✨ Todos": {
+    "n": 17,
+    "pressed": "true"
+   },
+   "👧 Muñecas": {
+    "n": 5,
+    "pressed": "true"
+   },
+   "🧸 Animales": {
+    "n": 4,
+    "pressed": "true"
+   },
+   "👶 Para Bebé": {
+    "n": 5,
+    "pressed": "true"
+   },
+   "🏠 Hogar": {
+    "n": 2,
+    "pressed": "true"
+   },
+   "🎄 Navidad": {
+    "n": 1,
+    "pressed": "true"
+   }
+  },
+  "modal": [
+   {
+    "name": "Muñeca Pelirroja con Vestido Colorido",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 519,
+     "clientH": 519,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca de Comunión",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 493,
+     "clientH": 493,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca Bohemia con Sombrero de Flores",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 532,
+     "clientH": 532,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca Pelirroja Envuelta para Regalo",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 493,
+     "clientH": 493,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca con Globo Corazón",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 493,
+     "clientH": 493,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Conejito con Sudadera Azul",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 491,
+     "clientH": 491,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Osito Moderno",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 491,
+     "clientH": 491,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Osita con Vestido Rosa",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 491,
+     "clientH": 491,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Bebé Dormilón Verde Agua",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 493,
+     "clientH": 493,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Vestido Rojo con Florecitas",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 493,
+     "clientH": 493,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Vestido Malva con Volantes",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 493,
+     "clientH": 493,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Pelele Azul con Rayas",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 491,
+     "clientH": 491,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Conjunto Verde Agua",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 491,
+     "clientH": 491,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Patucos de Bebé",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 427,
+     "clientH": 427,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Cojín de Corazones",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 491,
+     "clientH": 491,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Mochila Hipopótamo",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 466,
+     "clientH": 466,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Elfo Navideño Grande",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 493,
+     "clientH": 493,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   }
+  ],
+  "errs": [],
+  "reqs": []
+ },
+ "w1440": {
+  "w": 1440,
+  "overflow": 0,
+  "offscreen": [],
+  "fonts": [
+   "Cormorant Garamond 500",
+   "Cormorant Garamond 600",
+   "Nunito 400",
+   "Nunito 600",
+   "Nunito 700"
+  ],
+  "fontStack": "\"Cormorant Garamond\", Georgia, \"Times New Roman\", serif / body Nunito, system-ui, -apple-system, \"Segoe UI\", sans-serif",
+  "cards": 17,
+  "gridCols": 3,
+  "imgs": [
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191104_210315.jpg",
+    "alt": "Muñeca Pelirroja con Vestido Colorido",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200319_224935.jpg",
+    "alt": "Muñeca de Comunión",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190701_232419.jpg",
+    "alt": "Muñeca Bohemia con Sombrero de Flores",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200511_212320.jpg",
+    "alt": "Muñeca Pelirroja Envuelta para Regalo",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20220707_141259110.jpg",
+    "alt": "Muñeca con Globo Corazón",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200224_214525.jpg",
+    "alt": "Conejito con Sudadera Azul",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190902_202250.jpg",
+    "alt": "Osito Moderno",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191216_222230.jpg",
+    "alt": "Osita con Vestido Rosa",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190802_000927.jpg",
+    "alt": "Bebé Dormilón Verde Agua",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200504_132320.jpg",
+    "alt": "Vestido Rojo con Florecitas",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200421_201148.jpg",
+    "alt": "Vestido Malva con Volantes",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200118_214312.jpg",
+    "alt": "Pelele Azul con Rayas",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200529_211206.jpg",
+    "alt": "Conjunto Verde Agua",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200424_021353.jpg",
+    "alt": "Patucos de Bebé",
+    "ok": true,
+    "nw": 4608
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190530_125127.jpg",
+    "alt": "Cojín de Corazones",
+    "ok": true,
+    "nw": 3456
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20181015_002624.jpg",
+    "alt": "Mochila Hipopótamo",
+    "ok": true,
+    "nw": 1300
+   },
+   {
+    "src": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191216_190200.jpg",
+    "alt": "Elfo Navideño Grande",
+    "ok": true,
+    "nw": 3456
+   }
+  ],
+  "navLinks": [
+   "#hero",
+   "#catalogo",
+   "#historia",
+   "#sobre-mi",
+   "#contacto",
+   "https://api.whatsapp.com/send?phone=34608254021&text=%C2%A1Hola%20Inma!%20%F0%9F%91%8B%0A%0AHe%20visto%20tu%20web%20de%20amigurumis%20y%20me%20encanta%20tu%20trabajo.%0A%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n%3F%0A%0A%C2%A1Gracias!%20%F0%9F%92%95"
+  ],
+  "anchors": {
+   "hero": true,
+   "catalogo": true,
+   "historia": true,
+   "sobre-mi": true,
+   "contacto": true
+  },
+  "contactLinks": [
+   "https://api.whatsapp.com/send",
+   "mailto:inmaculadadurangomara@gmail.com",
+   "mailto:inmaculadadurangomara@gmail.com",
+   "https://www.facebook.com/InmaDuranGomara",
+   "https://www.facebook.com/InmaDuranGomara",
+   "https://api.whatsapp.com/send",
+   "mailto:inmaculadadurangomara@gmail.com"
+  ],
+  "navScroll": {
+   "catalogo": {
+    "top": 88,
+    "navH": 72
+   },
+   "historia": {
+    "top": 88,
+    "navH": 72
+   },
+   "sobre-mi": {
+    "top": 88,
+    "navH": 72
+   },
+   "contacto": {
+    "top": 246,
+    "navH": 72
+   }
+  },
+  "filters": {
+   "✨ Todos": {
+    "n": 17,
+    "pressed": "true"
+   },
+   "👧 Muñecas": {
+    "n": 5,
+    "pressed": "true"
+   },
+   "🧸 Animales": {
+    "n": 4,
+    "pressed": "true"
+   },
+   "👶 Para Bebé": {
+    "n": 5,
+    "pressed": "true"
+   },
+   "🏠 Hogar": {
+    "n": 2,
+    "pressed": "true"
+   },
+   "🎄 Navidad": {
+    "n": 1,
+    "pressed": "true"
+   }
+  },
+  "modal": [
+   {
+    "name": "Muñeca Pelirroja con Vestido Colorido",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca de Comunión",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca Bohemia con Sombrero de Flores",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca Pelirroja Envuelta para Regalo",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Muñeca con Globo Corazón",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Conejito con Sudadera Azul",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Osito Moderno",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Osita con Vestido Rosa",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Bebé Dormilón Verde Agua",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 427,
+     "clientH": 427,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Vestido Rojo con Florecitas",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 427,
+     "clientH": 427,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Vestido Malva con Volantes",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Pelele Azul con Rayas",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Conjunto Verde Agua",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Patucos de Bebé",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 427,
+     "clientH": 427,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Cojín de Corazones",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Mochila Hipopótamo",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 497,
+     "clientH": 497,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   },
+   {
+    "name": "Elfo Navideño Grande",
+    "titleMatch": true,
+    "descMatch": true,
+    "mimg": true,
+    "wa": true,
+    "geo": {
+     "fits": true,
+     "scrollH": 640,
+     "clientH": 640,
+     "ovY": "auto"
+    },
+    "overlayOv": "auto|body:hidden",
+    "trapped": true,
+    "restored": true
+   }
+  ],
+  "errs": [],
+  "reqs": []
+ },
+ "http": [
+  {
+   "id": 1,
+   "name": "Muñeca Pelirroja con Vestido Colorido",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191104_210315.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 582664
+  },
+  {
+   "id": 2,
+   "name": "Muñeca de Comunión",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200319_224935.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 1108596
+  },
+  {
+   "id": 3,
+   "name": "Muñeca Bohemia con Sombrero de Flores",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190701_232419.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 2188643
+  },
+  {
+   "id": 4,
+   "name": "Muñeca Pelirroja Envuelta para Regalo",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200511_212320.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 709146
+  },
+  {
+   "id": 5,
+   "name": "Muñeca con Globo Corazón",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20220707_141259110.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 2008820
+  },
+  {
+   "id": 6,
+   "name": "Conejito con Sudadera Azul",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200224_214525.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 1682413
+  },
+  {
+   "id": 7,
+   "name": "Osito Moderno",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190902_202250.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 800110
+  },
+  {
+   "id": 8,
+   "name": "Osita con Vestido Rosa",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191216_222230.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 1242152
+  },
+  {
+   "id": 9,
+   "name": "Bebé Dormilón Verde Agua",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190802_000927.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 643782
+  },
+  {
+   "id": 10,
+   "name": "Vestido Rojo con Florecitas",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200504_132320.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 926616
+  },
+  {
+   "id": 11,
+   "name": "Vestido Malva con Volantes",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200421_201148.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 2102709
+  },
+  {
+   "id": 12,
+   "name": "Pelele Azul con Rayas",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200118_214312.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 3407761
+  },
+  {
+   "id": 13,
+   "name": "Conjunto Verde Agua",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200529_211206.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 1167902
+  },
+  {
+   "id": 14,
+   "name": "Patucos de Bebé",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20200424_021353.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 915290
+  },
+  {
+   "id": 15,
+   "name": "Cojín de Corazones",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20190530_125127.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 1101152
+  },
+  {
+   "id": 16,
+   "name": "Mochila Hipopótamo",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20181015_002624.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 154483
+  },
+  {
+   "id": 17,
+   "name": "Elfo Navideño Grande",
+   "u": "http://127.0.0.1:5301/Amirigumi-Mas_Las_Cosicas_de_Inma/images/IMG_20191216_190200.jpg",
+   "st": 200,
+   "ct": "image/jpeg",
+   "bytes": 2374451
+  }
+ ],
+ "products": 17,
+ "categories": 5,
+ "names": [
+  "Muñeca Pelirroja con Vestido Colorido",
+  "Muñeca de Comunión",
+  "Muñeca Bohemia con Sombrero de Flores",
+  "Muñeca Pelirroja Envuelta para Regalo",
+  "Muñeca con Globo Corazón",
+  "Conejito con Sudadera Azul",
+  "Osito Moderno",
+  "Osita con Vestido Rosa",
+  "Bebé Dormilón Verde Agua",
+  "Vestido Rojo con Florecitas",
+  "Vestido Malva con Volantes",
+  "Pelele Azul con Rayas",
+  "Conjunto Verde Agua",
+  "Patucos de Bebé",
+  "Cojín de Corazones",
+  "Mochila Hipopótamo",
+  "Elfo Navideño Grande"
+ ]
+}
