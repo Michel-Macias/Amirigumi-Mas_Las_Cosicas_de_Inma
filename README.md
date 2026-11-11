@@ -1,94 +1,87 @@
-# Las Cosicas de Inma
+# 🧶 Amigurumi-Mas & Las Cosicas de Inma
 
-## Sitio Web
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
 
-Puedes visitar el sitio web desplegado en: [https://michel-macias.github.io/Amirigumi-Mas_Las_Cosicas_de_Inma/](https://michel-macias.github.io/Amirigumi-Mas_Las_Cosicas_de_Inma/)
+> Una ventana mágica al mundo del ganchillo artesanal. Creaciones únicas hechas con amor, hilo y mucha dedicación.
 
-## Descripción
+---
 
-Este es el sitio web de **Las Cosicas de Inma**, dedicado a la venta y exhibición de amigurumis hechos a mano. Los amigurumis son muñecos tejidos con técnica de crochet, incluyendo muñecas, animales, ropa de bebé y accesorios personalizados. El sitio permite a los clientes explorar el catálogo, ver fotos de los productos y realizar encargos personalizados.
+## ✨ Características Principales
 
-El proyecto está construido con React y Vite para una experiencia de usuario moderna y rápida.
+- **🎨 Catálogo Dinámico**: Explora una amplia variedad de amigurumis clasificados por categorías (Muñecas, Animales, Bebé, Hogar y Navidad).
+- **📱 Experiencia Mobile-First**: Diseño totalmente responsivo y adaptado para una navegación fluida desde cualquier dispositivo.
+- **💬 Integración con WhatsApp**: Realiza pedidos o consultas directamente con la artesana a través de enlaces directos personalizados por producto.
+- **🖼️ Galería Visual**: Imágenes de alta calidad para cada creación, destacando los detalles del trabajo artesanal.
+- **🛡️ Desarrollado con Excelencia**: Código limpio siguiendo estándares modernos y metodología TDD (Test-Driven Development).
 
-## Tecnologías Utilizadas
+---
 
-- **React**: Biblioteca para construir interfaces de usuario.
-- **Vite**: Herramienta de desarrollo rápida para proyectos web.
-- **ESLint**: Para el linting del código JavaScript/React.
-- **HTML/CSS**: Para la estructura y estilos básicos.
+## 🛠️ Tecnologías Utilizadas
 
-## Instalación y Uso
+- **Core**: React 19 + JavaScript (ES6+)
+- **Build Tool**: Vite 7
+- **Estilos**: Vanilla CSS con variables modernas y efectos de Glassmorphism.
+- **Despliegue**: GitHub Actions (CI/CD automático a GitHub Pages).
 
-### Prerrequisitos
+---
 
-- Node.js (versión 16 o superior)
-- npm o yarn
 
-### Instalación
+## 🧪 Metodología de Desarrollo
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/michel-macias/Amirigumi-Mas_Las_Cosicas_de_Inma.git
-   cd Amirigumi-Mas_Las_Cosicas_de_Inma
-   ```
+Este proyecto se rige por la metodología **TDD (Test-Driven Development)**. Cada funcionalidad crítica es probada antes de su implementación para garantizar la robustez y escalabilidad del sistema.
 
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
+- **Fase Roja**: Escribir un test que falle.
+- **Fase Verde**: Implementar el código mínimo para que el test pase.
+- **Refactorización**: Limpiar y optimizar el código manteniendo los tests en verde.
 
-### Ejecución en Desarrollo
+---
 
-Para ejecutar el proyecto en modo desarrollo:
-```bash
-npm run dev
+## 📦 Despliegue
+
+El despliegue está automatizado mediante **GitHub Actions**. Cada vez que se realiza un *push* a la rama `main`, el proceso de build se activa automáticamente y los archivos resultantes se publican en GitHub Pages.
+
+📍 **Ver en vivo**: [Amigurumi-Mas & Las Cosicas de Inma](https://michel-macias.github.io/Amirigumi-Mas_Las_Cosicas_de_Inma/)
+
+---
+
+## � Estructura del Proyecto
+
+```text
+├── .github/workflows/  # Configuración de GitHub Actions (CI/CD)
+├── public/             # Activos estáticos (Imágenes, Favicon)
+├── src/
+│   ├── assets/         # Recursos multimedia
+│   ├── data/           # Catálogo de productos (JSON)
+│   ├── App.jsx         # Componente principal y lógica de secciones
+│   ├── index.css       # Sistema de diseño y estilos globales
+│   └── main.jsx        # Punto de entrada de React
+├── package.json        # Dependencias y scripts
+└── vite.config.js      # Configuración de Vite
 ```
 
-Esto iniciará el servidor de desarrollo de Vite, generalmente en `http://localhost:5173`.
+---
 
-### Construcción para Producción
+## 🗺️ Roadmap / Próximas Mejoras
 
-Para construir el proyecto para producción:
-```bash
-npm run build
-```
+- [ ] **🔍 Buscador de Productos**: Implementar una barra de búsqueda en tiempo real.
+- [ ] **💳 Checkout Simulado**: Mejorar la experiencia de carrito de compras.
+- [ ] **🌙 Modo Oscuro Manual**: Añadir un selector de tema (actualmente automático por sistema).
+- [ ] **📈 SEO Avanzado**: Optimizar meta-tags dinámicos para cada producto.
+- [ ] **🧪 Suite de Tests**: Ampliar la cobertura de tests unitarios y de integración.
 
-Los archivos construidos estarán en la carpeta `dist`.
+---
 
-### Vista Previa
+## 👤 Autores
 
-Para previsualizar la construcción de producción:
-```bash
-npm run preview
-```
+Este proyecto ha sido desarrollado por **Michel Macías** en colaboración con **Antigravity** (AI de Google), para dar visibilidad al increíble trabajo artesanal de **Inmaculada Durán Gómara**.
 
-## Estructura del Proyecto
+- **Artesana**: Inmaculada Durán Gómara
+- **Contacto**: [WhatsApp](https://wa.me/34608254021) | [Email](mailto:inmaculadadurangomara@gmail.com) | [Facebook](https://www.facebook.com/InmaDuranGomara)
 
-```
-/
-├── public/          # Archivos estáticos (imágenes, favicon, etc.)
-├── src/             # Código fuente de la aplicación React
-│   ├── assets/      # Recursos adicionales
-│   ├── data/        # Datos del catálogo (catalog.json)
-│   ├── App.jsx      # Componente principal de la aplicación
-│   ├── main.jsx     # Punto de entrada de React
-│   └── ...          # Otros componentes y estilos
-├── fotos/           # Carpeta con fotos de productos
-├── index.html       # Archivo HTML principal
-├── package.json     # Dependencias y scripts
-├── vite.config.js   # Configuración de Vite
-└── eslint.config.js # Configuración de ESLint
-```
+---
 
-## Contribución
-
-Si deseas contribuir al proyecto, por favor contacta al desarrollador.
-
-## Autor
-
-- **Michel Macias** - Desarrollador del sitio web con Antigravity de Google.
-- **Inma Durán** - Creadora de los amigurumis.
-
-## Licencia
-
-Este proyecto es privado y propiedad de Inma Durán.
+<div align="center">
+  Hecho con ❤️ por Michel Macías & Antigravity
+</div>
