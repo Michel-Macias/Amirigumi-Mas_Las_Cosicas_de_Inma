@@ -431,7 +431,7 @@ Capturas `antes-{360,768,1440}.png` tomadas con `npm run dev` en `127.0.0.1:5199
 | H10 fuentes | Autoalojadas en `src/assets/fonts` (subconjunto latin, `font-display: swap`), con `LICENSE-*.txt` (SIL OFL 1.1). Cero peticiones a Google (comprobado en preview) |
 | H11 WhatsApp | Aplicado el criterio del encargo: sin verde. Los CTA de WhatsApp usan el acento rosa (primario/outline). **La decisión de marca sigue siendo de Michel** |
 | H12 navbar fijo | `scroll-padding-top` = alto del navbar + 1rem |
-| App.css | Confirmado muerto (no se importaba; era plantilla de Vite). Eliminado junto con `react.svg` y `vite.svg` sin uso |
+| App.css | Confirmado muerto (nadie lo importa; es plantilla de Vite). **Se conserva sin cambios** junto con `react.svg` y `vite.svg` (sin uso): el encargo prohíbe borrar assets. Limpieza propuesta como tarea aparte |
 
 Adicional: skip-link, `<header>/<nav>/<main id="contenido">/<footer>`, filtros con `role="group"` y `aria-pressed`, emojis decorativos con `aria-hidden`, nombres accesibles únicos en los botones de cada tarjeta (texto `sr-only`), `alt` con el nombre del producto, `dl` para cifras y datos de contacto, `loading="lazy"` fuera del hero, `fetchPriority="high"` en la foto principal, rutas de imagen resueltas con `import.meta.env.BASE_URL`, favicon con `%BASE_URL%` y `theme-color` al acento.
 
