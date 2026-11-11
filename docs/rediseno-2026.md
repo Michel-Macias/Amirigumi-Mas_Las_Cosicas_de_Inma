@@ -393,3 +393,95 @@ Este documento **no** ejecuta ninguna de estas pruebas. Son criterios para Front
 ---
 
 *Fuentes consultadas el 2026-11-11. Ninguna fecha se ha inventado: las que no aparecen en la fuente se marcan como "no visible".*
+
+---
+
+## 12. Implementación (Frontend, `t_929255f9`)
+
+Estado: **implementado en local**, sin merge, push ni deploy. No equivale a aprobación visual de Michel ni a despliegue público verificado.
+
+### 12.1 Baseline y rama
+
+| Campo | Valor |
+|---|---|
+| Baseline main | `1b7086701f5c261c77e844990d43cc38d3239ca6` |
+| Entrada Scribe integrada (fast-forward) | `684671d` |
+| Rama / worktree | `wt/t_929255f9` / `.worktrees/rediseno-2026-frontend` |
+| SHA-256 `src/data/catalog.json` | `68e4d6549633838af88cc23b40825ea7169eec87b30c23c19c54e6a78d520d1a` antes y después (17 productos, 5 categorías, 17 imágenes únicas) |
+| Assets | 50 ficheros en `public/` y `fotos/`; lista idéntica a la de baseline (`artifacts/rediseno-2026/assets-baseline.txt`), ninguno borrado |
+| Instrucciones de agente | No existe `AGENTS.md` ni `CLAUDE.md` en el repo |
+| Fallos preexistentes | Ninguno: `npm ci`, `lint` y `build` pasaban en baseline; 0 errores de consola; sin overflow a 360/768/1440 |
+
+Capturas `antes-{360,768,1440}.png` tomadas con `npm run dev` en `127.0.0.1:5199` antes de editar (`artifacts/rediseno-2026/baseline.log`).
+
+### 12.2 Qué se hizo (por hallazgo)
+
+| Hallazgo | Resolución |
+|---|---|
+| H1 enlaces sin `href` | Todos los enlaces de navegación son `<a href="#id">`; `scroll-padding-top` y `scroll-behavior` solo bajo `no-preference` |
+| H2 menú | `aria-expanded`, `aria-controls` (id con `useId`), cierre con Escape y al elegir enlace |
+| H3 modal | `role="dialog"`, `aria-modal`, `aria-labelledby`, foco inicial en "Cerrar", trampa de Tab/Shift+Tab, Escape, clic en fondo |
+| H4 scroll del body | Se guarda el `overflow` previo y se restaura |
+| R5 foco | Se devuelve al botón "Ver Detalles" que abrió el diálogo |
+| H5 `floatSoft` | Eliminado; no queda ninguna animación infinita (test) |
+| H6 hover de tarjeta | Sin `translateY` ni `scale`; solo sombra y borde |
+| H7 reduced-motion | Bloque global que anula transiciones, animaciones y `scroll-behavior`. El scroll por anclas ya no usa JS (`scrollIntoView`), así que lo cubre el CSS |
+| H8 recortes | `object-fit: contain` en tarjetas, hero, modal y "Sobre mí"; `width`/`height` en todas las `<img>` y `aspect-ratio` para evitar saltos |
+| H9 textura de historia | Retirada (`.history::before` y `.stitch-pattern` ya no existen) |
+| H10 fuentes | Autoalojadas en `src/assets/fonts` (subconjunto latin, `font-display: swap`), con `LICENSE-*.txt` (SIL OFL 1.1). Cero peticiones a Google (comprobado en preview) |
+| H11 WhatsApp | Aplicado el criterio del encargo: sin verde. Los CTA de WhatsApp usan el acento rosa (primario/outline). **La decisión de marca sigue siendo de Michel** |
+| H12 navbar fijo | `scroll-padding-top` = alto del navbar + 1rem |
+| App.css | Confirmado muerto (no se importaba; era plantilla de Vite). Eliminado junto con `react.svg` y `vite.svg` sin uso |
+
+Adicional: skip-link, `<header>/<nav>/<main id="contenido">/<footer>`, filtros con `role="group"` y `aria-pressed`, emojis decorativos con `aria-hidden`, nombres accesibles únicos en los botones de cada tarjeta (texto `sr-only`), `alt` con el nombre del producto, `dl` para cifras y datos de contacto, `loading="lazy"` fuera del hero, `fetchPriority="high"` en la foto principal, rutas de imagen resueltas con `import.meta.env.BASE_URL`, favicon con `%BASE_URL%` y `theme-color` al acento.
+
+**Contenido:** todos los textos se conservan. Solo se reubicó el bloque "Formas de pago / Envíos" dentro de la columna de encargos y se separaron en párrafos los antiguos `<br /><br />` de "El Arte" (mismo texto). El hero conserva el título, el texto, los dos CTA y las tres ventajas existentes. Se mantiene la tarjeta "Destacado" y las cifras existentes de "Sobre mí" (`+5 años`, `+100`): son copy previo, no se han verificado ni se han tocado.
+
+**Ritmos propios:** hero asimétrico (texto + collage 2fr/1fr de tres fotos reales), catálogo en rejilla, historia en lectura editorial de dos columnas con cabecera fija y entradas separadas por una línea (sin cajas), "Sobre mí" con foto y cifras en línea, encargos en dos columnas (acciones + datos de contacto como lista de definición) y pie en bloque sólido.
+
+### 12.3 Decisión de tokens
+
+`src/styles/tokens.css` es la única fuente de valores y se importa desde `src/index.css` (junto a `fonts.css`). Se aplican exactamente los valores del encargo (§5.2). **No hay alias de compatibilidad**: se eliminaron `--color-secondary/accent/warm/sage/cream/success/whatsapp`, `--radius-xl/2xl/3xl`, `--shadow-lg/xl/soft/glow` y las transiciones lentas, porque el CSS nuevo no los usa. Tokens añadidos que el encargo no fijaba: `--text-display` (fluido, tope 4.5rem), `--leading-body/heading`, `--nav-height` (4.5rem), `--gutter`, `--z-nav/--z-modal`, `--transition-fast` (150ms).
+
+Uso del acento: botones rellenos con `--color-primary` (6.12:1 con texto inverso); texto de acento pequeño, bordes de controles, filtros activos, etiquetas y pie con `--color-primary-dark` (≥ 7.69:1). `--color-primary-light` y `--color-border` solo decoran (1.47:1 y 1.54:1, no se usan para texto ni para el borde de un control).
+
+### 12.4 Contraste medido
+
+`node artifacts/rediseno-2026/contrast.mjs` (fórmula WCAG 2.x, log en `contraste.log`): 35 pares de texto, controles y foco, todos exigibles cumplen (mínimo 5.64:1 en texto; mínimo 7.69:1 en foco y bordes de control). axe-core (`wcag2a/2aa/21a/21aa/22aa`) sin violaciones en página a 360 y 1440 px y con el modal abierto. Los dos pares decorativos se documentan como no exigibles.
+
+### 12.5 Pruebas (reproducibles)
+
+Se añadió `@playwright/test` y `@axe-core/playwright` (devDependencies), `playwright.config.js` y `e2e/app.spec.js` (19 pruebas sobre la SPA real, sin mocks; solo se bloquean peticiones externas para no disparar WhatsApp ni Facebook).
+
+```bash
+npm ci
+npm run lint                  # eslint .
+npx eslint . --max-warnings=0 # también 0 warnings
+npm run build
+npm test                      # playwright contra npm run dev (127.0.0.1:5199)
+npm run test:preview          # build + vite preview (127.0.0.1:5198), misma suite
+node artifacts/rediseno-2026/verify-preview.mjs http://127.0.0.1:<puerto>   # con vite preview en marcha
+node artifacts/rediseno-2026/contrast.mjs
+```
+
+Orden TDD seguido: primero la suite (8 de caracterización en verde, 11 de mejoras en rojo), después la implementación (19/19). Prueba de mutación sobre el test de foco: al quitar `returnFocusTo?.focus()` el test falla en `toBeFocused`; al restaurarlo pasa.
+
+Resultados (exit 0 en todos): lint, lint estricto, build, `git diff --check`, 19/19 en dev y 19/19 en preview del build. En `verify-preview.log` (build servido bajo la base) a 360, 768 y 1440 px: 17/17 tarjetas con imagen decodificada y URL bajo `/Amirigumi-Mas_Las_Cosicas_de_Inma/images/`, 21/21 imágenes de la página, conteos por filtro iguales a los del catálogo (5/4/5/2/1), 17/17 modales abren con el título correcto, Escape cierra y devuelve el foco, 21 enlaces de WhatsApp bien formados (validados sin seguirlos), 0 overflow, 0 errores de consola o red, 0 peticiones a Google Fonts, 5 fuentes autoalojadas cargadas. Typecheck: no aplicable (proyecto JS). `despues-{360,768,1440}.png` son capturas de página completa del build.
+
+El CSS pasa de 22.9 kB a 17.6 kB; JS 212.7 a 213.5 kB.
+
+### 12.6 Limitaciones y gaps
+
+- **Lighthouse no disponible** en el entorno (no instalado); no se da ninguna métrica de rendimiento. Pendiente para QA.
+- **Peso de imágenes sin tocar:** `public/images` pesa 26 MB y hay fotos de hasta 3.4 MB. El encargo prohíbe borrar assets y no pide recomprimir; esto penalizará LCP en red lenta. Recomendado como tarea aparte (generar derivados, conservando los originales).
+- La revisión visual de composición se hizo con capturas por sección y mediciones; la aprobación estética es de Michel.
+- Probado solo en Chromium (Playwright). Hay WebKit en la caché local, pero no se ejecutó.
+- `index.html` mantiene `og:image` y `canonical` absolutos con la URL de `michel-macias.github.io`. No se verificó el despliegue público ni se tocó `origin`: la discrepancia MaciasIT frente a esa URL **sigue sin resolver** (§10).
+- `theme-color` e icono en `index.html` se ajustaron (cambio mínimo, fuera de `docs/` por necesidad: el favicon ignoraba la base de Vite).
+- Persisten decisiones pendientes de Michel: color del CTA de WhatsApp, y las cifras de "Sobre mí" (`+5 años`, `+100`) y el texto "Contra reembolso" como copy previo sin contrastar.
+- `npm ci` avisa de que el postinstall de `esbuild` queda bloqueado por la política de scripts; el build funciona igualmente.
+- Skill `tdd-workflow` sugiere `pre_test_failure.py` y `vitest`; no se usó vitest porque la suite relevante es E2E real y no hay lógica pura que aislar.
+
+### 12.7 Handoff para Caos
+
+Verificar de forma independiente: R1–R14 (§8) con el árbol limpio de `wt/t_929255f9`, Lighthouse si se puede instalar, WebKit/Firefox, lector de pantalla real, la discrepancia de `origin` sin imprimirlo si lleva credenciales, y que `qa.md` (reservado a QA) no existe aún. Aprobación visual final: Michel.
