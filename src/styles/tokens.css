@@ -1,0 +1,81 @@
+/* ========================================
+   TOKENS UNICOS - Las Cosicas de Inma
+   Fuente de verdad del sistema de diseno (rediseno 2026).
+   Tema claro editorial exclusivo. Un unico acento rosa.
+   Sin alias heredados: index.css y los componentes solo usan estos nombres.
+   ======================================== */
+:root {
+  /* Color */
+  --color-bg-primary: #fffbf8;
+  --color-bg-secondary: #fff5ee;
+  --color-bg-tertiary: #fdf0e8;
+  --color-bg-card: #ffffff;
+
+  --color-primary: #9d405f;
+  --color-primary-dark: #80304c;
+  --color-primary-light: #f5c6d4; /* solo decorativo, nunca texto */
+
+  --color-text-primary: #433a3b;
+  --color-text-secondary: #695d60;
+  --color-text-muted: #695d60;
+  --color-text-inverse: #fffbf8;
+
+  --color-border: #dcc9c7; /* solo decorativo (lineas, separadores) */
+  --color-focus: #80304c;
+
+  /* Tipografia */
+  --font-heading: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+  --text-display: clamp(2.5rem, 1.6rem + 3.6vw, 4.5rem); /* hero, fluido hasta 4.5rem */
+
+  --leading-body: 1.65;
+  --leading-heading: 1.1;
+
+  /* Espaciado */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Radios: sm controles pequenos, md botones y fotos, lg modal, full solo filtros */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-full: 9999px;
+
+  /* Sombras calidas y discretas */
+  --shadow-sm: 0 2px 8px rgb(78 41 51 / 0.08);
+  --shadow-md: 0 12px 32px rgb(78 41 51 / 0.1);
+
+  /* Layout */
+  --container-max: 76rem;
+  --gutter: clamp(1rem, 4vw, 3rem);
+  --nav-height: 4.5rem;
+
+  /* Movimiento (feedback corto) */
+  --transition-fast: 150ms ease;
+
+  /* Capas */
+  --z-nav: 100;
+  --z-modal: 200;
+}
